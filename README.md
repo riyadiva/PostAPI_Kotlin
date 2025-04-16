@@ -14,3 +14,7 @@ A simple Android app that fetches and displays a list of posts from a REST API u
 - **RecyclerView** for list display
 - **ViewBinding** for type-safe view access
 - **Material Design Components**
+
+## 🧱 Project Structure
+
+com.riya.postapipractice ├── data # Retrofit API, Repository Implementation │ └── api │ └── repository ├── domain # Repository Interface, Model (Post) ├── di # Hilt Modules (NetworkModule, RepositoryModule) ├── presentation │ └── screens │ └── postlist # Fragment, Adapter, ViewModel ├── util # Constants and helpers
